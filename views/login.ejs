@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+
+      <link rel="stylesheet" href="/stylesheets/style-signin.css">
+      <script src="/javacripts/jquery-3.2.1.min.js"> </script>
+      <script>
+          alert($.cookie("username"));
+      </script>
+	  
+	  <style>
+	  
+	  .btndn:hover{
+	  background:#00008B;
+	  }
+	  
+	  </style>
+	  
+</head>
+
+<body>
+
+<div class="signup">
+  <div class="signup-connect">
+    <h1></h1>
+    <a href="#" class="btn btn-social btn-facebook"><i class="fa fa-facebook"></i> Đăng nhập với facebook</a>
+    <a href="#" class="btn btn-social btn-twitter"><i class="fa fa-twitter"></i> Đăng nhập với Twitter</a>
+    <a href="#" class="btn btn-social btn-google"><i class="fa fa-google"></i> Đăng nhập với Google</a>
+    <a href="#" class="btn btn-social btn-linkedin"><i class="fa fa-linkedin"></i> Đăng nhập với Linkedin</a>
+  </div>
+  <div class="signup-classic">
+    <h2>Đăng nhập tài khoản</h2>
+    <form class="form" method="POST" action="/dangnhap">
+      <fieldset class="username">
+        <input type="text" class="form-control" name="tendangnhap"/>
+      </fieldset>
+      </fieldset>
+      <fieldset class="password">
+        <input type="password"  class="form-control" name="matkhau"/>
+      </fieldset>
+      <button type="submit" class="btn btn-warning btn-lg">Login</button>
+	  <a class="ttt" type="text" href="/dangki" style="text-align: center-right; color:#008000;">Chưa có tài khoản? Đăng ký ngay!</a>
+    </form>
+  </div>
+</div>
+  
+  
+</body>
+</html>

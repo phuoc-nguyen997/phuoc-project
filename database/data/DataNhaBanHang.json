@@ -1,0 +1,66 @@
+[
+    {
+        "maNBH":"NhaBH1",
+        "tenNBH": "Vu Thi Bich Hong",
+        "sdt":"0394180606",
+        "diaChi":"So 12, Nguyen Van Bao, phuong 4, quan Go Vap ",
+        "SanPham":
+        {
+
+        },
+        "TaiKhoan": 
+        {
+            "tenDangNhap": "BichHong",
+            "matKhau": "123456"
+
+        }
+    },
+    {
+        "maNBH":"NhaBH2",
+        "tenNBH": "Le Thanh Phuong Thao",
+        "sdt":"0834532480",
+        "diaChi":"So 38, duong Cay Keo, chung cu Dat Gia ",
+        "SanPham":
+        {
+
+        },
+        "TaiKhoan": 
+        {
+            "tenDangNhap": "phuongthao",
+            "matKhau": "123456"
+
+        }
+    },
+    {
+        "maNBH":"NhaBH3",
+        "tenNBH": "Nguyen Huu Phuoc",
+        "sdt":"0979563826",
+        "diaChi":"So 12, Nguyen Van Bao, phuong 4, quan Go Vap ",
+        "SanPham":
+        {
+
+        }, 
+        "TaiKhoan": 
+        {
+            "tenDangNhap": "phuocnguyen",
+            "matKhau": "123456"
+
+        }
+    },
+    {
+        "maNBH":"NhaBH4",
+        "tenNBH": "HPT",
+        "sdt":"0873572962",
+        "diaChi":"So 12, Nguyen Van Bao, phuong 4, quan Go Vap ",
+        "SanPham":
+        {
+
+        }, 
+        "TaiKhoan": 
+        {
+            "tenDangNhap": "hpt123",
+            "matKhau": "123456"
+
+        }
+    }
+]

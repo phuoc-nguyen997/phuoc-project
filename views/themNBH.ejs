@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Page</title>
+
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' />
+    <link rel='stylesheet prefetch' href="/stylesheets/jquery.toastmessage.css" />
+    <script src="/javascripts/jquery-3.2.1.min.js"></script>
+    <script src="/javascripts/admin.js"></script>
+    <script src="/javascripts/jquery.toastmessage.js"></script>
+    <script src="/javascripts/jquery.validate.js"> </script>
+      
+      <style>
+          .text-1{
+              margin-left: 100px;
+          }
+          .input{
+              width: 350px;
+          }
+          .text-danger{
+              color: red;
+              padding-left: 20px;
+          }
+          *, :before, :after {
+              box-sizing: border-box;
+          }
+          h1, h2, h3, h4, h5, h6, p, dt, dd, th, td, li, a {
+              line-height: 1;
+              font-weight: normal;
+          }
+          body, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, table, tr, thead, tbody, th, td, ul, li, a {
+              margin: 0;
+              padding: 0;
+          }
+          p {
+              line-height: 1.5;
+          }
+          ul {
+              list-style: none;
+          }
+          a, a:hover, a:focus, a:visited {
+              display: inline-block;
+              text-decoration: none;
+          }
+          a {
+              color: inherit;
+              font-size: inherit;
+              font-weight: inherit;
+              line-height: inherit;
+          }
+          span, label {
+              display: inline-block;
+          }
+          input, textarea, select, button {
+              font-size: 1em;
+              border: 1px solid #ccc;
+              outline: none;
+              padding: 0.5em 1em;
+              vertical-align: top;
+          }
+          select {
+              padding: calc(0.5em - 1px) 1em;
+          }
+          input[type="submit"], button {
+              cursor: pointer;
+          }
+          input[type="file"] {
+              max-width: 13.2em;
+              border: none;
+              padding: 0;
+          }
+          img {
+              display: inline-block;
+              max-width: 100%;
+          }
+          body {
+              font-family: Arial, sans-serif;
+          }
+          /* COLOR */
+          .bg-fff {
+              background-color: #fff;
+          }
+          .bg-000 {
+              background-color: #000;
+          }
+          .text-fff {
+              color: #fff;
+          }
+          .text-center {
+              text-align: center !important;
+          }
+          .text-left {
+              text-align: left !important;
+          }
+          .text-right {
+              text-align: right !important;
+          }
+          .text-bold {
+              font-weight: bold;
+          }
+          .text-uppercase {
+              text-transform: uppercase;
+          }
+          strike {
+              text-decoration: line-through;
+              color: #FFFFFF;
+          }
+
+          /* GRID */
+          .row:before, .row:after {
+              content: "";
+              display: table;
+          }
+          .row:after {
+              clear: both;
+          }
+
+
+
+
+
+          .fl {
+              float: left;
+          }
+          .fr {
+              float: right;
+          }
+
+
+          /* PAGE ADMIN CSS  */
+
+
+          body {
+              font-family: 'SFU Futura', Arial, sans-serif;
+              font-size: 14px;
+              color: #2a3f54;
+              background: #f7f7f7;
+          }
+
+          .bg-1 {
+              background: #557daa;
+          }
+
+          .text-1 {
+              color: #557daa;
+          }
+
+          /* ADMIN PAGE */
+          /* FORM & INPUT */
+          span {
+              display: inline-block;
+          }
+          label {
+              display: inline-block;
+              cursor: pointer;
+          }
+          .checkbox {
+              font-size: 20px;
+              display: inline-block;
+              position: relative;
+              width: 1em;
+              height: 1em;
+              background: #557daa;
+              vertical-align: middle;
+          }
+          .checkbox:before {
+              content: "";
+              display: block;
+              width: 1em;
+              height: 1em;
+              background: #fff;
+              border: 1px solid #557daa;
+              border-radius: 2px;
+              position: absolute;
+              top: 0;
+              left: 0;
+              cursor: pointer;
+          }
+          .checkbox:after {
+              content: "";
+              width: 0.7em;
+              height: 0.5em;
+              position: absolute;
+              top: 0.14em;
+              left: 0.16em;
+              border-left: 0.15em solid #fff;
+              border-bottom: 0.15em solid #fff;
+              background-position: top left, bottom left;
+              transform: rotate(-45deg);
+              display: none;
+              cursor: pointer;
+          }
+          .checkbox:checked:before {
+              background: #557daa;
+          }
+          .checkbox:checked:after {
+              display: block;
+          }
+
+
+          /*CONTENTS CSS */
+          .container {
+              display: flex;
+              display: -webkit-flex;
+              padding-left: 200px;
+              transition: 0.5s;
+          }
+          .container.is-click {
+              padding-left: 0;
+          }
+          .avatar {
+              margin: 50px 1em;
+              position: relative;
+              display: table;
+          }
+          .avatar img {
+              display: table-cell;
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              background: #fff;
+              border: 2px solid #fff;
+              overflow: hidden;
+          }
+          .avatarName {
+              display: table-cell;
+              vertical-align: middle;
+              padding-left: 1em;
+              color: #fff;
+              line-height: 1.5;
+          }
+
+
+          /* SIDE CSS */
+          .sideArea {
+              width: 200px;
+              min-width: 200px;
+              background: #2A3F54;
+              position: fixed;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              transition: 0.5s;
+          }
+          .container.is-click .sideArea {
+              left: -200px;
+          }
+          .sideArea li>a {
+              display: block;
+              color: #fff;
+              padding: 1em;
+              border-bottom: 1px solid rgba(255,255,255,0.2);
+          }
+          .sideArea li>a:hover {
+              background: rgba(255,255,255,0.1);
+          }
+          .sideArea li>a>.fa {
+              width: 1em;
+              text-align: center;
+              margin-right: 10px;
+          }
+          .submenu {
+              display: none;
+              border-bottom: 1px solid rgba(255,255,255,0.2);
+          }
+          .submenu li>a {
+              padding-left: 2em;
+              border-bottom: none;
+          }
+          .sideMenu {
+              border-top: 1px solid rgba(255, 255, 255, 0.20);
+          }
+
+          /* MAIN CSS */
+          .mainArea {
+              width: 100%;
+              overflow: hidden;
+          }
+          .navTop {
+              background: #FFFFFF;
+              border-bottom: 1px solid #dedede;
+              padding: 0 1em;
+          }
+          .menuIcon {
+              font-size: 1.5em;
+              padding: 0.4em;
+              cursor: pointer;
+          }
+          .account {
+              position: relative;
+              padding: 0 1em;
+          }
+          .name{
+              color: #2A3F54;
+              padding: 1em 0;
+              cursor: pointer;
+          }
+          .name>span {
+              margin-left: 10px;
+          }
+          .accountLinks {
+              width: calc(200px - 2em);
+              position: absolute;
+              top: 100%;
+              right: 0;
+              background: #fff;
+              border: 1px solid #dedede;
+              z-index: 999;
+          }
+          .accountLinks li {
+              border: none !important;
+          }
+          .accountLinks li a {
+              display: block;
+              color: #2A3F54;
+              padding: 0.7em 1em;
+          }
+          .account:hover, .accountLinks li a:hover {
+              background: rgba(42,63,84,0.1);
+          }
+
+          .mainContent {
+              padding: 20px;
+          }
+
+          /* ADMIN FORM */
+          .form {
+              background: #fff;
+              border: 1px solid #dedede;
+          }
+          .formHeader {
+              padding: 1em;
+              background: #fff;
+              border-bottom: 1px solid #dedede;
+          }
+          .formBody {
+              width: 100%;
+              padding: 20px 20px 10px 20px;
+          }
+
+          /* LIST FORM */
+          .btnAdd, .btnSave, .btnEdit, .btnRemove {
+              padding: 0.5em;
+              margin: 0 2px;
+          }
+          .btnSave {
+              border: none;
+              outline: none;
+              cursor: pointer;
+              font-size: 0.95em;
+              width: 200px;
+              margin-right: 250px;
+          }
+          .btnSwitch {
+              font-size: 10px;
+          }
+          .btnSwitch.all {
+              position: absolute;
+              bottom: calc(100% + 3.7em);
+              left: calc(50% - 4em);
+          }
+          .scrollX {
+              width: 100%;
+              overflow-x: scroll;
+          }
+
+          /* TABLE */
+          .table {
+              width: 100%;
+              min-width: 768px;
+          }
+          .table .row {
+              width: 100%;
+          }
+          .table .row .cell {
+              display: table-cell;
+              padding: 10px;
+              vertical-align: middle;
+          }
+          .table>ul>li {
+              border-bottom: 1px solid #dedede;
+          }
+          .table .cell-50 {
+              -max-width: 50px;
+              min-width: 50px;
+          }
+          .table .cell-100 {
+              -max-width: 100px;
+              min-width: 100px;
+          }
+          .table .cell-150 {
+              -max-width: 150px;
+              min-width: 150px;
+          }
+          .table .cell-200 {
+              -max-width: 200px;
+              min-width: 200px;
+          }
+          .table .cell-100p {
+              width: 100%;
+          }
+
+
+          /* DETAIL FORM */
+          .inputGroup {
+              display: block;
+              margin-bottom: 10px;
+          }
+          .inputGroup>span:first-child {
+              width: 100px;
+              padding-bottom: 10px;
+              text-align: right;
+              padding-right: 10px;
+              vertical-align: top;
+          }
+          .inputGroup>span {
+              display: table-cell;
+          }
+          .inputGroup input, .inputGroup select {
+              margin-bottom: 10px;
+          }
+          .form textarea {
+              width: 100%;
+              min-height: 20em;
+          }
+          #pagination {
+              margin-top: 20px;
+          }
+          .btnNewInput {
+              padding: 0.6em;
+          }
+          .inputNumber {
+              max-width: 3em;
+              padding: 0.5em 0;
+              text-align: center;
+          }
+
+
+
+          .formSearch {
+              margin-bottom: 15px;
+              position: relative;
+          }
+          .inputSearch {
+              padding-right: 3em;
+          }
+          .btnSearch {
+              padding: 0.5em 1em;
+              position: absolute;
+              top: 0;
+              right: 0;
+              background: transparent;
+              border: none;
+          }
+
+
+          .form{
+              margin-left: 100px;
+              margin-right: 100px;
+
+          }
+          .btnSave{
+              background: #e83e8c;
+              color: #fff;
+              border-radius: 5px;
+          }
+          .btnSave:hover{
+              background: #fff;
+              color: #e83e8c;
+              border: 1px solid #e83e8c;
+          }
+        .container {
+        margin-top: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .panel-heading {
+          font-size: small;
+        }
+
+        .alert {
+            
+        display: none;
+        }
+
+
+        .error {
+
+            color: #e74c3c;
+            font-size: small;
+            
+        }
+    </style>
+  <script>
+
+      function KTmaNBH(){
+          var re=/^NBH\w*/;
+          if(re.test(document.getElementById('manbh-new').value.trim())==false)
+          {
+              ma.innerText="* bắt đầu là kí tự NBH";
+              return false;
+          }
+          else{
+              ma.innerText="";
+              return true;
+          }
+      }
+
+      function KTtenNBH(){
+          var re=/^[A-Z]\w*/;
+          if(re.test(document.getElementById('tennbh-new').value.trim())==false)
+          {
+              ten.innerText="* bắt đầu là kí tự hoa";
+              return false;
+          }
+          else{
+              ten.innerText="";
+              return true;
+          }
+      }
+
+      function KTsdtNBH(){
+          var re=/^0[0-9].{10,}/;
+          if(re.test(document.getElementById('sdtnbh-new').value.trim())==false)
+          {
+              sdt.innerText="* số điện thoại sai định dạng";
+              return false;
+          }
+          else{
+              sdt.innerText="";
+              return true;
+          }
+      }
+
+      function KTdiachiNBH(){
+          var re=/^[A-Z]\w*/;
+          if(re.test(document.getElementById('diachinbh-new').value.trim())==false)
+          {
+              diachi.innerText="* bắt đầu là kí tự hoa";
+              return false;
+          }
+          else{
+              diachi.innerText="";
+              return true;
+          }
+      }
+
+      function KTtendangnhap(){
+          var re=/(?=.*\d).{6,}/;
+          if(re.test(document.getElementById('tendangnhap').value.trim())==false)
+          {
+              tendn.innerText="* phải có chữ, số, ít nhất 6 kí tự";
+              return false;
+          }
+          else{
+              tendn.innerText="";
+              return true;
+          }
+      }
+
+      function KTmatkhau(){
+          var re=/(?=.*\d).{6,}/;
+          if(re.test(document.getElementById('matkhau').value.trim())==false)
+          {
+              mk.innerText="* phải có chữ, số, ít nhất 6 kí tự";
+              return false;
+          }
+          else{
+              mk.innerText="";
+              return true;
+          }
+      }
+
+
+  </script>
+
+</head>
+
+<body>
+  <div class="container">
+<div class="sideArea">
+    <div class="avatar">
+        <img src="/images/user.jpg" alt="">
+        <div class="avatarName">Xin chào Admin<br></div>
+    </div>
+    <ul class="sideMenu">
+        <li><a href="/admin/themNBH"><span class="fa fa-user-plus"></span>Thêm tài khoản nhà bán hàng</a></li>
+        <li><a href="/admin"><span class="fa fa-align-justify"></span>Danh sách tài khoản nhà bán hàng</a></li>
+    </ul>
+</div>
+
+<div class="mainArea">
+
+    <nav class="navTop row">
+
+        <div class="account fr">
+            <div class="name has-submenu">Admin<span class="fa fa-angle-down"></span></div>
+            <ul class="accountLinks submenu">
+                <li><a href="/">Trang chủ</a></li>
+                <li><a href="/dangnhap">Đăng xuất<span class="fa fa-sign-out fr"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="mainContent">  
+<div class="row filterGroup">
+    <form action="" method="POST" class="formSearch fl">
+
+    </form>
+
+</div>
+
+
+<!-- DETAIL FORM -->
+<form name="form" action="/admin/themNBH" method="POST" class="form" id="formThemTaiKhoanNhaBanHang">
+    <div class="formHeader row">
+        <h2 style="color: #e83e8c" class="text-1 fl">THÊM TÀI KHOẢN NHÀ BÁN HÀNG MỚI</h2>
+
+    </div>
+    <div class="formBody row">
+        <div class="column s-6">
+            <label class="inputGroup">
+                <span>Mã nhà bán hàng</span>
+                <span></span>
+                <span id="ma" class="text-danger"></span>
+            </label>
+            <input class="form-control" type="text" name="manbh" id="manbh-new"  onBlur="return KTmaNBH();">
+
+            <label class="inputGroup">
+                <span>Tên nhà bán hàng</span>
+                <span></span>
+                <span id="ten" class="text-danger"></span>
+            </label>
+            <input class="input" type="text" name="tennbh" id="tennbh-new" onBlur="return KTtenNBH();" >
+
+            <label class="inputGroup">
+                <span>Số điện thoại</span>
+                <span</span>
+                <span id="sdt" class="text-danger"></span>
+            </label>
+            <input class="input" type="text" name="sdtnbh" id="sdtnbh-new" onBlur="return KTsdtNBH();"  >
+            <label class="inputGroup">
+                <span>Địa chỉ</span>
+                <span></span>
+                <span id="diachi" class="text-danger"></span>
+            </label>
+            <input class="input" type="text" name="diachinbh" id="diachinbh-new" onBlur="return KTdiachiNBH();"  >
+            <label class="inputGroup">
+                <span>Tên đăng nhập</span>
+                <span></span>
+                <span id="tendn" class="text-danger"></span>
+            </label>
+            <input class="input" type="text" name="tendangnhap" id="tendangnhap"  onBlur="return KTtendangnhap();" >
+            <label class="inputGroup" style="width:100%;">
+                <span>Mật khẩu</span>
+                <span id="mk" class="text-danger"></span>
+            </label>
+            <input class="input" type="text" name="matkhau" id="matkhau"  onBlur="return KTmatkhau();" >
+        </div>
+
+      <button type="submit" class="btnSave bg-1 text-fff text-bold fr">Lưu</button>
+    </div>
+</form>
+    </div>
+</div>
+  </div>
+<script  src="/javascripts/index.js"></script>
+<script>
+    // var danhsachbanhang = [];
+    // var bangDanhSachNhaBanHang = localStorage.getItem("bangdanhsachnhabanhang");
+    // if(bangDanhSachNhaBanHang){
+    //     danhsachbanhang = JSON.parse(bangDanhSachNhaBanHang);
+    // }
+    // function updateDanhSachBanHang (item){
+    //     danhsachbanhang.push(item);
+    //     localStorage.setItem("bangdanhsachnhabanhang",JSON.stringify(danhsachbanhang));
+    // }
+    // $('#formThemTaiKhoanNhaBanHang').submit(function (e){
+    //     e.preventDefault();
+    //     var manbh = $(this).find('[name="manbh"]').val();
+    //     if(!manbh) {
+    //         alert('Chưa nhập mã nhà bán hàng'); return;
+    //     }
+    //     var tennbh = $(this).find('[name="tennbh"]').val();
+    //     if(!tennbh) {
+    //         alert('Chưa nhập tên nhà bán hàng'); return;
+    //     }
+    //     var sdtnbh = $(this).find('[name="sdtnbh"]').val();
+    //     if(!sdtnbh) {
+    //         alert('Chưa nhập số điện thoại nhà bán hàng'); return;
+    //     }
+    //     var diachinbh = $(this).find('[name="diachinbh"]').val();
+    //     if(!diachinbh) {
+    //         alert('Chưa nhập địa chỉ nhà bán hàng'); return;
+    //     }
+    //     var tendangnhap = $(this).find('[name="tendangnhap"]').val();
+    //     if(!tendangnhap) {
+    //         alert('Chưa nhập tên đăng nhập nhà bán hàng'); return;
+    //     }
+    //     var matkhau = $(this).find('[name="matkhau"]').val();
+    //     if(!matkhau) {
+    //         alert('Chưa nhập mật khẩu nhà bán hàng'); return;
+    //     }
+    //     var item = {
+    //         Ma: manbh,
+    //         Ten: tennbh,
+    //         SoDienThoai: sdtnbh,
+    //         DiaChi: diachinbh,
+    //         TenDangNhap: tendangnhap,
+    //         MatKhau: matkhau
+    //     }
+    //     updateDanhSachBanHang(item);
+    //     alert('Thêm thành công');
+    // });
+</script>
+</body>
+</html>

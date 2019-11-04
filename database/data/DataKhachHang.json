@@ -1,0 +1,53 @@
+[
+    {
+        "maKH": "KH01",
+        "tenKH": "Vu Thi Bich Hong",
+        "diaChi": "So 12 Nguyen Van Bao",
+        "TaiKhoan":
+        {
+            "tenDangNhap": "BichHongVu",
+            "matKhau": "HongVu"
+        }
+    },
+    {
+        "maKH": "KH02",
+        "tenKH": "Le Thanh Phuong Thao",
+        "diaChi": "So 38, duong Cay Keo, Chung cu Dat Gia",
+        "TaiKhoan":
+        {
+            "tenDangNhap": "PhuongThao",
+            "matKhau": "PhuongThao"
+        }
+    },
+    {
+        "maKH": "KH03",
+        "tenKH": "Nguyen Huu Phuoc",
+        "diaChi": "sO 101 Le Loi, Phuong 4, Quan Go Vap",
+        "TaiKhoan":
+        {
+            "tenDangNhap": "PhuocNguyen",
+            "matKhau": "Phuoc111"
+        }
+    },
+    {
+        "maKH": "KH04",
+        "tenKH": "Le Thanh Phuong Thuy",
+        "diaChi": "So 123 Nguyen Thai Son, Phuong 5, Quan Go Vap",
+        "TaiKhoan": 
+        {
+            "tenDangNhap": "Phuong Thuy",
+            "matKhau": "PhuongThuy"
+        }
+    },
+    {
+        "maKH": "KH05",
+        "tenKH": "Vu Ky Duyen",
+        "diaChi": "So 378 Pham Van Dong, Phuong 7, Quan Binh Thanh",
+        "TaiKhoan":
+        {
+            "tenDangNhap": "Ky Duyen",
+            "matKhau": "KyDuyen"
+        }
+    }
+
+]

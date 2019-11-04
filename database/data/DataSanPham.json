@@ -1,0 +1,359 @@
+[
+    { 
+      "maSP": "HPT001",
+      "tenSP": "Hypnotic Poison",
+      "soLuong": "20",
+      "donGia": "2950000",
+      "NhaBanHang": "Vu Thi Bich Hong",
+      "Hinh": "https://www.dior.com/beauty/version-5.1563986503609/resize-image/ep/870/580/90/0/v7-coversparfum%252FY0063401_F006344009_E01_ZHC.jpg",
+       "HangSanPham":
+      {
+        "maHang": "M01",
+        "tenHang": "Dior"
+      },
+      "Noidung": "Hypnotic Poison bởi Christian Dior là một hương thơm Vanilla Phương Đông dành cho phái nữ. Hypnotic Poison đã được ra mắt vào năm 1998. Chế tác cho loại nước hoa này là Annick Menardo. ​Được nhấn mạnh bởi hoa nhài, lớp hương đầu ngọt ngào dần lắng xuống bởi xạ hương và vani thanh lịch. Những lớp xạ hương mộc mạc, với sự trong trắng và cái chạm quyến rũ đó là sự tương phản đẹp mắt cùng với sự cay đắng của hạnh nhân, mang lại một sự kiềm chế cho những người sành ăn."
+
+    },
+    {
+      "maSP": "HPT002",
+      "tenSP": "Dior Jadore",
+      "soLuong": "25",
+      "donGia": "3000000",
+      "NhaBanHang": "Nguyễn Hữu Phước",
+      "Hinh": "https://www.thegioinuochoa.com.vn/uploads/galleries/2018/09/uri/1536303478.2973.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M01",
+        "tenHang": "Dior"
+      },
+      "Noidung": "Jadore là một loại nước hoa hiện đại, quyến rũ và ngày càng trở nên phổ biến trên toàn thế giới, với lý do đó, chai nước hoa này đã được phát triển thành nhiều phiên bản với các nồng độ khác nhau. J'adore là sản phẩm nước hoa sang trọng, cùng với thiết kế màu vàng ròng rực rỡ phản chiếu lên da tựa như ánh mặt trời. Năm 1999, sản phẩm được thiết kế bởi Calice Becker."
+    },
+    {
+      "maSP": "HPT003",
+      "tenSP": "Gucci Bamboo ",
+      "soLuong": "30",
+      "donGia": "2500000",
+      "NhaBanHang": "Lê Thanh Phương Thảo",
+      "Hinh": "https://innisshop.com/wp-content/uploads/2018/08/GUCCI-BAMBO.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M02",
+        "tenHang": "Gucci"
+      },
+      "Noidung": "Gucci Bamboo là hương thơm dành cho nữ giới với tên gọi cùng với bộ sưu tập và phụ kiện trang sức. Nước hoa mang mùi hương thể hiện sự tự tin và nữ tính với thiết kế hiện đại, sang trọng.Đến với hương thơm của Gucci Bamboo for women, ngay từ đầu bạn sẽ bắt gặp ngay hương thơm ngọt ngào của cam Bergamot. Hương thơm cam bergamot chưa hết thì liên tiếp là sự nổi lên của mùi hương thơm ngát từ hoa ngọc lan tây, hoa huệ Casablanca và chút hương vị nồng cay từ hoa cam, đưa bạn như lạc vào giữa vườn hoa mà không tìm được lối ra. Cuối cùng, lưu lại trên da là hương thơm ấm áp, nhẹ nhàng của hổ phách, gỗ đàn hương và hương vani Tahiti."
+    },
+    {
+      "maSP": "HPT004",
+      "tenSP": "CHANEL",
+      "soLuong": "20",
+      "donGia": "3350000",
+      "NhaBanHang": "Nguyen Thai Nhat",
+      "Hinh": "https://theperfume.vn/wp-content/uploads/2019/01/nuoc-hoa-chanel-no5-edp-50ml.png",
+      "HangSanPham":
+      {
+        "maHang": "M03",
+        "tenHang": "Chanel"
+      },
+      "Noidung": "Nước hoa Chanel No5 là biểu tượng của sự thành công trong lĩnh vực nước hoa của thương hiệu Chanel, nước hoa Chanel No5 đã vượt xa khỏi phạm vi 1 mùi hương nước hoa độc đáo đơn thuần, để trường tồn cùng sự biến đổi của thế giới qua thời gian. Nước hoa nữ Chanel No5 Eau De Parfum được chiết xuất từ hỗn hợp của ylang-ylang, hoa hồng, hoa nhài, vani... tạo nên mùi hương hoa dìu dịu, kế tiếp mùi hoa hồng rực rỡ. Cuối cùng hương thơm của Gỗ đàn hương, xạ hương và 1 chút vani sẽ đọng lại thành hương cuối thật đậm đà và quyến rũ."
+    }, 
+  
+    {
+      "maSP": "HPT005",
+      "tenSP": "Joy Dior",
+      "soLuong": "20",
+      "donGia": "2080000",
+      "NhaBanHang": "Tạ Minh Tiền Hải",
+      "Hinh": "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/15/151/1635/720/31/718481170/718481170_2_720x928.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M01",
+        "tenHang": "Dior"
+      },
+      "Noidung": "Nước hoa Joy mang đến sự nhẹ nhàng và thanh khiết từ hương đầu của cam quýt cùng loài hồng quý hiểm sứ Grasses và những nhành hoa nhài, mỗi loài loài hoa mang một mùi hương đặc trưng riêng và khi kết hợp sẽ cho những biến tấu khác lạ và độc đáo, trở thành dạo khúc làm nền cho những nốt hương tiếp theo. Gỗ đàn hương thơm nồng ngự trị trong hương cuối xuất hiện một cách ấm áp và bao bọc tất cả. Joy là một mùi hương gợi tình nhưng lại không quá đỗi ngọt ngào, lan tỏa như một lời thì thầm, những nốt hương mà các loại hoa đang tỏa sáng, được bao phủ trong sự mềm mại tạ nên nét quyến rũ quyền lực mà vẫn vô cùng tự nhiên "
+    }, 
+    {
+      "maSP": "HPT006",
+      "tenSP": "MISS DIOR BLOOMING BOUQUET",
+      "soLuong": "25",
+      "donGia": "3200000",
+      "NhaBanHang": "HPT",
+      "Hinh": "https://kinperfume.com/wp-content/uploads/2018/11/Dior-Miss-Dior-Blooming-Bouquet-100ml-600x600.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M01",
+        "tenHang": "Dior"
+      },
+      "Noidung": "Mùi hương lãng mạn, tự nhiên như tiếp thêm sức sống và sự yêu đời cho các bạn phụ nữ trẻ ngày nay với mùi hương thuộc nhóm hương hoa cỏ. Mẫu thiết kế chai hiện đại và nữ tính, hứa hẹn làm sáng bùng bộ sưu tập nước hoa của bạn."
+    },
+    {
+      "maSP": "HPT007",
+      "tenSP": "Chance Chanel",
+      "soLuong": "20",
+      "donGia": "3500000",
+      "NhaBanHang": "HPT",
+      "Hinh": "https://nuochoaxachtay.site/wp-content/uploads/2017/12/chanel-chance-eau-vive-fullsize-camehoashop.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M03",
+        "tenHang": "Chanel"
+      },
+      "Noidung": "Chance Eau de Parfum hay còn được gọi là “Chane vàng” là hương thơm đặc trưng bởi bưởi tươi mát, hoắc hương cộng với vani và xạ hương, thêm một ít hương hoa tô vẽ thêm nét nữ tính. Trong khi hoắc hương đã được rửa sạch mùi của bùn đất, vani ngọt ngào và xạ hương lại ấm áp trong mơ hồ. Mùi hương thơm tuyệt vời này bốc toả kéo dài rất lâu lên đến 12 tiếng đồng hồ.Nói đến Chanel người ta thường nghĩ đến cái gì đó nồng nặc, tạo ra cảm giác ngộp thở. Nhưng Chance lại là một cơ hội khác cho những cô gái yêu quý sự cổ điển nhưng vẫn muốn mình trẻ trung và thanh lịch. Bằng cách giảm nhẹ các nốt hương phương Đông nồng gắt và làm tươi lên hương vị của cam quýt và hoa cỏ, Chance làm cho người phụ nữ trẻ cảm thấy mình đĩnh đạc hơn trong khi lại khiến những người phụ nữ trưởng thành cảm thấy trẻ trung hơn một chút."
+    },
+    {
+      "maSP": "HPT008",
+      "tenSP": "Versace Bright Crystal",
+      "soLuong": "30",
+      "donGia": "2500000",
+      "NhaBanHang": "Vương Quốc Bảo",
+      "Hinh": "https://hermosa.vn/images/upload/800-630/9/5/g/95g_253524.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M04",
+        "tenHang": "VerSace"
+      },
+      "Noidung": "Lấy cảm hứng từ sự kết hợp giữa các sản phẩm nước hoa độc đáo nhất của Donatella Versace, nước hoa Bright Crystal ra đời mang trong mình hương thơm mát dịu của lựu, yuzu cùng mùi hương đầy lãng mạn và gợi tình của mẫu đơn, mộc lan, hoà quyện cùng hương thơm ấm áp của xạ hương và hổ phách.Mẫu chai được thiết kế với tông màu hồng trong suốt cùng những đường nét đầy tinh tế, gợi lên nét gợi cảm và ngọt ngào giống như mùi hương."
+    },
+    {
+      "maSP": "HPT009",
+      "tenSP": "Versace Eros Pour Femme",
+      "soLuong": "20",
+      "donGia": "3300000",
+      "NhaBanHang": "Lê Viết Trường",
+      "Hinh": "http://congdongthoitrang.com/wp-content/uploads/2018/01/0038246_versace-eros-pour-femme-edp-100ml-for-women-dbs10889.jpeg",
+      "HangSanPham":
+      {
+        "maHang": "M04",
+        "tenHang": "VerSace"
+      },
+      "Noidung": "Hương thơm nữ tính của Versace Eros pour femme mở ra với hương thơm cam chanh đầy tươi mát được xây dựng từ chanh vàng và cam Bergamot. Tiếp đến là tầng hương giữa đầy thơm ngát được xây dựng từ hương thơm của bó hoa chanh vàng, nhài sambac, hoa nhài và mẫu đơn. Cuối cùng lưu lại trên da nốt hương ấm áp và dịu nhẹ từ gỗ, xạ hương hoà quyện cùng hương Ambroxan."
+    },
+    {
+      "maSP": "HPT010",
+      "tenSP": "Dior Fahrenheit EDT For Men",
+      "soLuong": "20",
+      "donGia": "3350000",
+      "NhaBanHang": "Lê Trần Uyển Nhi",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2019/10/269128972f006628009new.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M01",
+        "tenHang": "Dior"
+      },
+      "Noidung": "Fahrenheit mở đầu với hương thơm rực rỡ của hoa kim ngân kết hợp với hương cam bergamot và hương thơm dịu nhẹ từ quả táo gai. Hương thơm của Fahrenheit sắc sảo nhưng thoáng qua, hương hoa cỏ mở đầu tỏa hương thơm lâu dài cùng với hoa violet và nhục đậu khấu. Lớp hương sau cùng của Fahrenheit là sự kết hợp của bụi gỗ tuyết tùng, gỗ đàn hương và hoắc hương tạo nên một mùi hương nguyên chất và ấm áp giống như một vùng đất đầy nắng trên trái đất, với những viên đá và cây chapparal ấm nóng dưới ánh mặt trời mùa hè. Mỗi lớp hương của Fahrenheit đều là mùi hương của niềm vui và hạnh phúc."
+    },
+    {
+      "maSP": "HPT011",
+      "tenSP": "Dior Addict Eau Fraiche 2014",
+      "soLuong": "15",
+      "donGia": "3250000",
+      "NhaBanHang": "Phạm Lê Thiên Ngân",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2015/11/dior-addict-eau-fraiche-mini-perfume_1024x1024_aeio-u4-300x300.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M01",
+        "tenHang": "Dior"
+      },
+      "Noidung": "Trình làng năm 2014, cùng thời điểm ra đời với chai Dior Addict EDT, hãng Dior cũng cho ra mắt phiên bản Dior Addict mới mang tên Dior Addict Eau Fraiche 2014. Đây là hương thơm hoa cỏ đầy ngọt ngào và tươi sáng do chuyên gia Francois Demachy trực tiếp chế tạo. Hương thơm được mở đầu bằng hương vị ngọt đắng của cam Bergamot Calabria, lớp hương giữa ngập tràn cỏ hoa với hoa linh lan thung lũng, hoa lan Nam Phi, phía sau những bông hoa tinh tế ấy là hương cuối của xạ hương trắng ấn tượng."
+    },
+    {
+      "maSP": "HPT012",
+      "tenSP": "Dior Poison Girl EDT",
+      "soLuong": "25",
+      "donGia": "3315000",
+      "NhaBanHang": "Phạm Lê Thiên Hà",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2017/09/Dior-Poison-Girl-1-300x300.png",
+      "HangSanPham":
+      {
+        "maHang": "M01",
+        "tenHang": "Dior"
+      },
+      "Noidung": "Poison Girl EDT là một phiên bản mới của phiên bản gốc EDP, ra mắt vào thang 1/2017 . Nếu bản gốc là sự kết hợp ngọt ngào và vị đăng đắng của cam, hoa hồng Đan Mạch, đậu tonka, vanilla, hạnh nhân để tạo nên một tuyên bố “Tôi không phải là một cô gái, tôi là chất độc đối với ai một lần đã từng chạm phải” thì với Poison Girl EDT chỉ dành riêng cho những cô gái đầy nữ tính, tự do, táo bạo hơn và khó nắm bắt hơn."
+    },
+    {
+      "maSP": "HPT013",
+      "tenSP": "Chanel Bleu de Chanel Parfum",
+      "soLuong": "20",
+      "donGia": "3115000",
+      "NhaBanHang": "Nguyễn Lê Như Quỳnh ",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2018/06/nuoc-hoa-nam-bleu-de-chanel-parfum-anh2.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M03",
+        "tenHang": "Chanel"
+      },
+      "Noidung": "Một sự tươi trẻ thơm mát mở ra, kéo dài trên sự ấm áp, đong đầy cảm giác nghiện của gỗ tuyết tùng và gỗ đàn hương từ New Caledonia quét qua hương thơm mãnh liệt từ gỗ. BLEU DE CHANEL Parfum phá vỡ mọi qui ước, mọi khuôn khổ mang đến hương thơm gợi cảm, lịch lãm và đầy bản lĩnh của phái mạnh. Với thiết kế chai màu đen sang trọng và huyền bí, BLEU DE CHANEL Parfum vẫn với mẫu chai mạnh mẽ thu hút ánh nhìn của đối phương điểm xuyết tên dòng nước hoa và thương hiệu với mạ vàng nổi bật."
+    },
+    {
+      "maSP": "HPT014",
+      "tenSP": "Chanel Allure Homme Sport",
+      "soLuong": "20",
+      "donGia": "3700000",
+      "NhaBanHang": "Nguyễn Lê Thúy Quỳnh ",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2014/06/Chanel-Allure-Homme-Sport_1_opla-ca-300x300.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M03",
+        "tenHang": "Chanel"
+      },
+      "Noidung": "Bạn là tín đồ thể thao, bạn yêu thích cảm giác vận động, khát vọng chinh phục đỉnh cao, vượt qua mọi thử thách và hòa mình vào men say chiến thắng, Chanel hiểu được điều đó và đã cho ra đời Chanel Allure Homme Sport. Thế giới thể thao là nơi vẻ đẹp hình thể lên ngôi, tất cả hòa quyện với hương thơm tươi mát, đầy ấn tượng đánh thẳng vào các giác quan như một luồng điện, ánh chớp bất ngờ. Chanel Homme Sport mang lại sự tươi trẻ, hấp dẫn để tôn vinh vẻ đẹp cứng cáp, rắn rỏi của cánh mày râu một cách tự nhiên nhất. Vì tự nhiên là là nét đẹp rất tinh tế mà tạo hóa ban tặng cho chúng ta."
+    },
+    {
+      "maSP": "HPT015",
+      "tenSP": "Chanel Gabrielle For Women",
+      "soLuong": "20",
+      "donGia": "2900000",
+      "NhaBanHang": "Phạm Công Lợi",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2017/09/375x500-1-300x300.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M03",
+        "tenHang": "Chanel"
+      },
+      "Noidung": "Olivier Polge đã sáng tạo ra hương thơm mới của dòng chanel dành cho nữ, Chanel Gabrielle được ra mắt năm 2017, một hương thơm hoa cỏ rạng rỡ, lấp lánh, mang một nét nữ tính khó cưỡng. Một tập hợp các loài hoa xen lẫn giữa các tầng hương: hoa nhài và các note tươi xanh của hoa ylang-ylang hòa cùng hoa cam hấp dẫn đã làm xúc tác dẫn đến một sự thoảng qua nhưng không nhạt nhòa của hoa huệ trắng được nắm bắt một cách tốt nhất.Thân chai và bao bì mới này được thiết kế bởi Sylvie Legastelois. Thân chai vuông được khoác một màu vàng óng bóng mềm dẫn truyền khi ánh sáng chiếu vào, tôn lên vẻ đẹp biểu tượng của ánh nắng và chất nắng trong hương thơm."
+    },
+    {
+      "maSP": "HPT015",
+      "tenSP": "Chanel Gabrielle For Women",
+      "soLuong": "20",
+      "donGia": "2900000",
+      "NhaBanHang": "Phạm Công Lợi",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2017/09/375x500-1-300x300.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M03",
+        "tenHang": "Chanel"
+      },
+      "Noidung": "Olivier Polge đã sáng tạo ra hương thơm mới của dòng chanel dành cho nữ, Chanel Gabrielle được ra mắt năm 2017, một hương thơm hoa cỏ rạng rỡ, lấp lánh, mang một nét nữ tính khó cưỡng. Một tập hợp các loài hoa xen lẫn giữa các tầng hương: hoa nhài và các note tươi xanh của hoa ylang-ylang hòa cùng hoa cam hấp dẫn đã làm xúc tác dẫn đến một sự thoảng qua nhưng không nhạt nhòa của hoa huệ trắng được nắm bắt một cách tốt nhất.Thân chai và bao bì mới này được thiết kế bởi Sylvie Legastelois. Thân chai vuông được khoác một màu vàng óng bóng mềm dẫn truyền khi ánh sáng chiếu vào, tôn lên vẻ đẹp biểu tượng của ánh nắng và chất nắng trong hương thơm."
+    },
+    {
+      "maSP": "HPT016",
+      "tenSP": "Chanel Chance Eau Fraiche",
+      "soLuong": "20",
+      "donGia": "3200000",
+      "NhaBanHang": "Nguyễn Thị Nụ",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2014/06/Chanel-Chance-Eau-Fraiche-EDT-1.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M03",
+        "tenHang": "Chanel"
+      },
+      "Noidung": "Nước hoa Chance Eau Fraiche của Chanel là một hương thơm hoa Chypre dành cho phụ nữ. Chance Eau Fraiche đã được tung ra thị trường trong năm 2007. Hương đầu là chanh và cây tuyết tùng, hương giữa là hồ tiêu hồng, lục bình và hoa nhài, ghi chú căn bản là gỗ tếch, iris, hổ phách, hoắc hương, vetiver và xạ hương."
+    },
+    {
+      "maSP": "HPT017",
+      "tenSP": "Gucci Guilty Eau Pour Homme",
+      "soLuong": "25",
+      "donGia": "3200000",
+      "NhaBanHang": "Lê Minh Vũ",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2018/08/25-1.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M02",
+        "tenHang": "Gucci"
+      },
+      "Noidung": "Nước hoa nam Gucci Guilty Eau Pour Homme phù hợp với người trên 25 tuổi.Đây là dòng nước hoa Gucci này có mùi hương thoang thoảng trên làn da.Đây là dòng nước hoa Gucci thuộc nhóm Woody Aromatic (Hương gỗ thơm). Gucci Guilty Eau Pour Homme được cho ra mắt vào năm 2015. Bên cạnh đó, Quả chanh vàng và Cam Bergamot là hai hương bạn có thể dễ dàng cảm nhận được nhất khi sử dụng nước hoa này. Guilty Eau có vẻ đúng như tên gọi của nó, một phiên bản nhẹ nhàng hơn của Gucci Guilty. hương thơm rất tươi mới và tổng hợp từ các thành phần trái cây và hương hoa cỏ, vì vậy Gucci Guilty Eau Pour Homme nhận được rất nhiều lời khen ngợi."
+    },
+    {
+      "maSP": "HPT018",
+      "tenSP": "Gucci Guilty Intense For Women",
+      "soLuong": "25",
+      "donGia": "3500000",
+      "NhaBanHang": "Nguyễn Xuân Nguyên Hạnh",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2014/06/Gucci-Guilty-Intense-For-Women_1-300x300.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M02",
+        "tenHang": "Gucci"
+      },
+      "Noidung": "Nước hoa Gucci Guilty Intense For Women ra đời năm 2011 giữ lại hầu hết các hương liệu đã tạo nên dòng sản phẩm Gucci Guilty danh tiếng. Tuy nhiên, do dòng nước hoa mới này chứa nhiều hương thơm của hạt tiêu hồng và hoa tử đinh hương nên mang đậm chất phương Đông và cũng ấm áp hơn. Cũng như Gucci Guilty, nước hoa Gucci Guilty Intense mang mùi hương mạnh mẽ, quyến rũ và hoang dã rất đặc trưng. Đây là mùi hương dành cho những người phụ nữ sang trọng, tự tin và vô cùng quyến rũ."
+    },
+    {
+      "maSP": "HPT019",
+      "tenSP": "Gucci Première For Women EDP",
+      "soLuong": "25",
+      "donGia": "3500000",
+      "NhaBanHang": "Nguyễn Đức Hậu",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2014/06/Gucci-Premi%C3%A8re-For-Women-EDP_2.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M02",
+        "tenHang": "Gucci"
+      },
+      "Noidung": "Xuất hiện lần đầu tiên vào năm 2012 và nhanh chóng chiếm được tình cảm của các quý cô duyên dáng, tao nhã. Gucci Premiere For Women đã tạo nên một làn sóng mạnh mẽ vào thời điểm mà nó được tung ra thị trường, như thế đủ để minh chứng cho sự quyén rũ của nó.Gucci Premiere For Women bắt đầu mở ra với hương xuất phát từ cam Bergamot, hoa cam. Trung tâm của mùi hương sẽ là sự kết hợp của hoa trắng và xạ hương. Để kết lại hãng nước hoa nổi tiếng Gucci chọn gỗ, và da thuộc. Bắt đầu là sự sang trọng phấn khởi tiếp theo hương nước hoa giúp bạn thể hiện sự gợi cảm và kết thúc bằng sự quyết rũ tuyệt đối."
+    },
+    {
+      "maSP": "HPT020",
+      "tenSP": "Gucci Flora By Gucci EDP",
+      "soLuong": "25",
+      "donGia": "3200000",
+      "NhaBanHang": "Bạch Đức Hoài Phong",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2014/06/gucci-flora-by-gucci-edp_b.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M02",
+        "tenHang": "Gucci"
+      },
+      "Noidung": "Gucci vào đầu năm 2010 vừa cho ra đời một ấn bản mới của Gucci Flora một sản phẩm đã rất được ưa chuộng trong thời gian qua. Sản phẩm này vẫn được lấy cảm hứng từ hương hoa. Sản phẩm mới này chị khác ấn bản cũ về nồng độ tinh dầu. Nhưng Gucci Flora mang một phong cách trưởng thành hơn dành cho những người phụ nữ muốn có thể giữ được mùi hương nhẹ nhàng của mình thêm một chút phong phú , gợi cảm cho buổi tối, mùi hương thay đổi trong một cuộc sống khác nhau của cùng một người phụ nữ."
+    },
+    {
+      "maSP": "HPT021",
+      "tenSP": "Versace Pour Homme",
+      "soLuong": "25",
+      "donGia": "1700000",
+      "NhaBanHang": "Đặng Trương Hải Triều",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2014/06/Versace-Pour-Homme_2.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M04",
+        "tenHang": "Versace"
+      },
+      "Noidung": "Mùi hương mới cho nam giới – Nước hoa Versace Pour Homme – là sự pha trộn các thành phần tinh chất có nguồn gốc Địa Trung Hải với hỗn hợp hương thơm hàng đầu rất phù hợp cho nam giới ngày nay: đó là những người đàn ông tri thức và tự tin, năng động, mạnh mẽ và đầy đam mê, sống hài hòa với thế giới tự nhiên.Được dẫn dắt bởi nhà thiết kế táo bạo và có ảnh hưởng nhất thế giới, nhãn hiệu Versace đồng nghĩa với sự cao cấp bậc nhất. Chính vì lẽ đó mà những dòng sản phẩm của Versace luôn gắn liền với phong cách lịch lãm, sang trọng"
+    },
+    {
+      "maSP": "HPT022",
+      "tenSP": "Versace Eros For Men",
+      "soLuong": "25",
+      "donGia": "2500000",
+      "NhaBanHang": "Vũ Văn Thượng",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2014/06/Versace-Eros-For-Men_2.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M04",
+        "tenHang": "Versace"
+      },
+      "Noidung": "Với thiết kế xanh ngọc đầy ấn tượng, Eros ẩn giấu hương thơm mạnh mẽ, cá tính pha chút nồng ấm của gỗ Phương Đông. Hương thơm của nước hoa Eros được ví như là sự trong trẻo, mạnh mẽ và pha chút nồng ấm của phương Đông. Đây chính là mùi hương mà người đàn ông nào cũng muốn sỡ hữu.Mùi hương là sự pha trộn giữa tinh dầu bạch hà, táo xanh và hương chanh Ý ở hương đầu tạo nên sự dịu mát. Tiếp đó là sự nồng ấm đến từ hương tonka ở quãng hương giữa, cuối cùng cả hai kết hợp khéo léo cùng hương hoa ambroxan Venezuela và hương hoa phong lữ ở hương cuối tạo ra một sự tổng hòa tuyệt vời."
+    },
+    {
+      "maSP": "HPT023",
+      "tenSP": "Versace Man Eau Fraiche",
+      "soLuong": "20",
+      "donGia": "2800000",
+      "NhaBanHang": "Đinh Hoàng Thái",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2014/06/Versace-Man-Eau-Fraiche-EDT_3.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M04",
+        "tenHang": "Versace"
+      },
+      "Noidung": "Một lần nữa Versace Man lại tung ra thị trường một phiên bản mới – Nước hoa Versace Man Eau Fraiche – một người đàn ông mạnh mẽ và tự tin, thích sự sang trọng và làm mọi người chú ý, nhưng phiên bản mới này hướng người đàn ông về thế giới nội tâm, rất trang nhã và quyến rũ, người đàn ông có sức mạnh linh hồn, luôn cảm thấy thoải mái và biết thưởng thức cuộc sống hơn. Hương đầu với hương hoa quả mát dịu của chanh, gỗ hồng mộc; hương giữa nồng nàn với gỗ tuyết tùng, tiêu kết hợp với mùi hương ấm áp của hổ phách, xạ hương làm nên một loại nước hoa hoàn hảo để tôn vinh vẻ đẹp nội tâm của người đàn ông hiện đại."
+    },
+    {
+      "maSP": "HPT024",
+      "tenSP": "Versace Dylan Blue Pour Femme",
+      "soLuong": "20",
+      "donGia": "2500000",
+      "NhaBanHang": "Đàm Tố Uyên",
+      "Hinh": "https://cdn-orchard.vietnamhost.vn/wp-content/uploads/2018/06/0096000-2.jpg",
+      "HangSanPham":
+      {
+        "maHang": "M04",
+        "tenHang": "Versace"
+      },
+      "Noidung": "Versace Pour Femme Dylan Blue ra đời với sự kết hợp tinh tế tiếp tục chinh phục các tín đồ nước hoa, độc đáo trong thiết kế và mùi hương táo bạo. Sự nữ tính mới với sự quyến rũ hoàn toàn khác biệt mạnh mẽ nhưng vẫn tinh tế để mở ra một thế giới mới đầy tự do và nồng nàn. Thành phần hoa quả và gỗ của Dylan được hình thành để nhấn mạnh tính độc đáo, sức mạnh, sự gợi cảm và sự thanh lịch ở những người dùng nó. Lúc đầu, hương thơm khá sắc sảo, ngọt ngào của trái cây và hoa với một sự pha trộn của táo, quả lý chua đen, hoa nhài, gỗ trắng, xạ hương, và hoắc hương."
+    }
+
+
+
+
+    
+]

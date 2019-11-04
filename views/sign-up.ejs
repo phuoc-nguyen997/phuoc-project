@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel="stylesheet" href="/stylesheets/style-signin.css">
+    <script src="/javacripts/jquery-3.2.1.min.js"> </script>
+        <script src="/javacripts/jquery.validate.js"> </script>
+        <script src="/javacripts/jquery-cookie.js"> </script>
+
+        <style>
+            .text-danger{
+                color: red;
+            }
+            .container {
+            margin-top: 20px;
+            }
+
+            .panel-heading {
+              font-size: small;
+            }
+
+            .alert {
+                
+            display: none;
+            }
+
+
+            .error {
+
+                color: #e74c3c;
+                font-size: small;
+                
+            }
+			.btndk{
+                border-radius: 5px;
+            }
+			.btndk:hover{
+			background:#008000;
+			}
+        </style>
+      <script>
+
+          function KTmaNBH(){
+              var re=/^NBH\w*/;
+              if(re.test(document.getElementById('manbh-new').value.trim())==false)
+              {
+                  ma.innerText="* bắt đầu là kí tự NBH";
+                  return false;
+              }
+              else{
+                  ma.innerText="";
+                  return true;
+              }
+          }
+
+          function KTtenNBH(){
+              var re=/^[A-Z]\w*/;
+              if(re.test(document.getElementById('ten').value.trim())==false)
+              {
+                  ten.innerText="* bắt đầu là kí tự hoa";
+                  return false;
+              }
+              else{
+                  ten.innerText="";
+                  return true;
+              }
+          }
+
+          function KTsdtNBH(){
+              var re=/^0[0-9].{10,}/;
+              if(re.test(document.getElementById('sdt').value.trim())==false)
+              {
+                  sdt.innerText="* số điện thoại sai định dạng";
+                  return false;
+              }
+              else{
+                  sdt.innerText="";
+                  return true;
+              }
+          }
+
+          function KTdiachiNBH(){
+              var re=/\d/;
+              if(re.test(document.getElementById('diachi').value.trim())==false)
+              {
+                  diachi.innerText="* bắt đầu là kí tự hoa";
+                  return false;
+              }
+              else{
+                  diachi.innerText="";
+                  return true;
+              }
+          }
+
+          function KTtendangnhap(){
+              var re=/(?=.*\d).{6,}/;
+              if(re.test(document.getElementById('tendangnhap').value.trim())==false)
+              {
+                  tendn.innerText="* phải có chữ, số, ít nhất 6 kí tự";
+                  return false;
+              }
+              else{
+                  tendn.innerText="";
+                  return true;
+              }
+          }
+
+          function KTmatkhau(){
+              var re=/(?=.*\d).{6,}/;
+              if(re.test(document.getElementById('matkhau').value.trim())==false)
+              {
+                  mk.innerText="* phải có chữ, số, ít nhất 6 kí tự";
+                  return false;
+              }
+              else{
+                  mk.innerText="";
+                  return true;
+              }
+          }
+
+      </script>
+ 
+  
+</head>
+
+<body>
+
+<div class="signup" style="width:50%;">
+
+  <div class="signup-classic" style="width:70%; margin:auto;">
+    <h2>Đăng ký tài khoản</h2>
+    <form class="form" action="sign-in.ejs" name="form" METHOD="GET">
+     <fieldset class="fullname">
+         <input  type="text" placeholder="Họ tên" name="ten" id="ten" onBlur="return KTtenNBH();"/>
+         <span id="ten" class="text-danger"></span>
+     </fieldset>
+
+    </fieldset>
+    <fieldset class="credit-card">
+            <input placeholder="Số điện thoại" name="sdt" class="textbox-n" type="text"  id="sdt" onBlur="return KTsdtNBH();"  />
+             <span id="sdt" class="text-danger"></span>
+  </fieldset>
+      <fieldset class="username">
+        <input id="un" type="text" placeholder="Tên đăng nhập" name="tendangnhap" id="tendangnhap" onBlur="return KTtendangnhap();"/>
+          <span id="tendn" class="text-danger"></span>
+      </fieldset>
+
+        <fieldset class="username">
+            <input id="un" type="text" placeholder="Địa chỉ" name="diachi" id="diachi" onBlur="return KTdiachiNBH();"/>
+            <span id="diachi" class="text-danger"></span>
+        </fieldset>
+      <fieldset class="password">
+            <input id="pw" type="password" name="matkhau" id="matkhau" placeholder="Mật khẩu" onBlur="return KTmatkhau();"/>
+          <span id="mk" class="text-danger"></span>
+      </fieldset>
+        <a type="submit" href="/dangnhap" style="text-align: center;" class="btndk">Đăng nhập</a>
+	  <a class="ttt" type="text" href="/dangnhap" style="text-align: center; color:#0033FF;">Bạn đã có tài khoản? Đăng nhập ngay!</a>
+    </form>
+  </div>
+</div>
+  
+  
+</body>
+</html>
